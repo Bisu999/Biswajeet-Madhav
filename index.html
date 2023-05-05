@@ -20,55 +20,56 @@
     <h2>@container</h2>
      <h3>fluid container</h3>
      
-     <div>This is a fluid container and it will go till the end of page</div>
+     <div class="containers">This is a fluid container and it will go till the end of page</div>
      <h3>center container</h3>
-     <div>This is a centerd container and it will go till the specified widths/div>
+     <div class="container-center">This is a centerd container and it will go till the specified widths </div>
  <hr>
     <h2>@Links</h2>
-    <a href="">Primary link</a>
-    <a href="">Secondadry link</a>
+    <a class="link primary-link" href="">Primary link</a>
+    <a class="link secondary-link" href="">Secondadry link</a>
     <hr>
     <h2>@lists</h2>
     <h3>unorderd lists</h3>
-    <ul>
-        <li>Item one</li>
-        <li>Item second</li>
-        <li>Item Third</li>
+    <ul class="non-bullet">
+        <li class="list-item-inline">Item one</li>
+        <li class="list-item-inline">Item second</li>
+        <li class="list-item-inline">Item Third</li>
     </ul>
     <h3>unorderd inline lists</h3>
-   <ul> <li>Inline Item one</li>
+   <ul class="non-bullet"> <li>Inline Item one</li>
     <li>Inline Item second</li>
     <li>Inline Item Third</li>
 </ul>
 <h3>reverse Orderd Lists</h3>
-<ol>
+<ol reversed>
     <li>Item 1</li>
     <li>Item 2</li>
     <li>Item 3</li>
 </ol>
 <hr>
 <h2>@nav</h2>
-<nav>
-    <div> I am brand</div>
-    <ul>
-        <li>
-            <a href="/">home</a>
+<nav class="navigation container">
+    <div class="nav-brand"> I am brand</div>
+    <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+            <a  class="link link-active" href="/">home</a>
         </li>
-        <li>
-            <a href="/">products</a>
+        <li class="list-item-inline">
+            <a class="link" href="/">products</a>
         </li>
-        <li>
-            <a href="/">about</a>
+        <li class="list-item-inline">
+            <a  class="link" href="/">about</a>
         </li>
     </ul>
 </nav>
 <hr>
 <h2>@header</h2>
-<header>
-    <img src="images/hero.svg">
-    <h1>heading inside header</h1>
+<header class="hero">
+    <img  class="hero-img"src="images/hero.svg">
+    <h1 class="hero-heading">heading inside <span style="color:var(--primary-color)">header</span></h1>
 </header>
 <hr>
+
 <h2>@section</h2>
 
 <section>
