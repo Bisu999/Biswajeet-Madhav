@@ -115,6 +115,7 @@ hr{
 
 .section{
     padding: 2rem;
+    width: auto;
 }
 .section h1{
 text-align: center;
@@ -123,7 +124,7 @@ text-align: center;
 
 .ow{
     background-color: var(--off-white);
-    
+    width:auto
 }
 
 
